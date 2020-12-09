@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  danieluniaspdockerwin:
+    image: ${DOCKER_REGISTRY-}danieluniaspdockerwin
+    build:
+      context: .\DanielUniAspDockerWin
+      dockerfile: Dockerfile
